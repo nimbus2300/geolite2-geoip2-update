@@ -11,7 +11,7 @@ The script is pretty self-contained. It does the following:
 1. Makes a staging directory under /tmp
 2. Downloads https://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz
 3. Downloads https://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz
-4. Downloads the tarballs, unpacks them, and moves them into place under /usr/share/GeoIP
+4. Downloads the tarballs, unpacks them, locates the database files, and moves them into place under /usr/share/GeoIP
 
 ## Installation instructions
 
